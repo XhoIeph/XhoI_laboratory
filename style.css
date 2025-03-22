@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: black;
+    border: 5px #ffffff solid;
+    height: 140px;
+    width: 100%;
+    position: fixed;
+}
+h1{
+    position: absolute;
+    left: 60px;
+    top: 0px;
+    background-image: url(image/logo_2_b_w.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 350px;
+    height: 170px;
+    text-indent: -9999px;
+}
+header ul{
+    position: absolute;
+    right:6vw;
+    top: 0;
+    line-height: 150px;
+    font-size: larger;
+}
+header li{
+    color: #ffffff;
+    display: inline;
+    margin-right: 5vw;
+}
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+header a:hover{
+    text-decoration: underline;
+}
+.myself{
+    background-color: rgb(128, 128, 128 / 0px);
+    height: 100vh;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255)),url(image/Myself.jpeg) no-repeat;
+    background-size: 100% 100%;
+    background-attachment: scroll;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.myself h2{
+    font-size: 80px;
+}
+.myself h3{
+    font-size: 40px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+.myself p{
+    font-size: 20px;
+    font-weight: lighter;
+}
+footer{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+}
+footer a{
+    color: red;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline;
+}
