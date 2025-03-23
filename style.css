@@ -82,6 +82,9 @@ footer a{
 footer a:hover{
     text-decoration: underline;
 }
+.menu{
+    display: none;
+}
 /*响应式设计专用*/
 @media screen and (max-width: 768px) {
     header ul{
