@@ -45,23 +45,25 @@ header a:hover{
     background-color: rgb(128, 128, 128 / 0px);
     height: 100vh;
     background: linear-gradient(rgba(255, 255, 255, 0.5), rgb(255, 255, 255)),url(image/Myself.jpeg) no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
+    background-position: center;
     background-attachment: scroll;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
 }
 .myself h2{
-    font-size: 80px;
+    font-size: clamp(35px,5vw,80px);
 }
 .myself h3{
-    font-size: 40px;
+    font-size: clamp(20px,2.5vw,60px);
     font-weight: normal;
     margin: 20px 0;
 }
 .myself p{
-    font-size: 20px;
+    font-size: clamp(10px,1vw,20px);
     font-weight: lighter;
 }
 footer{
@@ -71,7 +73,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 80px;
+    font-size: 5vw;
 }
 footer a{
     color: red;
@@ -79,4 +81,15 @@ footer a{
 }
 footer a:hover{
     text-decoration: underline;
+}
+/*响应式设计专用*/
+@media screen and (max-width: 768px) {
+    header ul{
+        display: none;
+    }
+    header h1{
+        left: 50%;
+        transform: translateX(-50%);
+        transform: scale(0.15) translate(-330%,-298%);
+    }
 }
