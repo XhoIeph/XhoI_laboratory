@@ -5,8 +5,8 @@
 
 header{
     background-color: black;
-    border: 5px #ffffff solid;
-    height: 140px;
+    border: 4px #ffffff solid;
+    height: 100px;
     width: 100%;
     position: fixed;
 }
@@ -14,18 +14,19 @@ h1{
     position: absolute;
     left: 60px;
     top: 0px;
-    background-image: url(image/logo_2_b_w.png);
+    background-image: url(image/logo_max.png);
     background-repeat: no-repeat;
     background-position: center;
-    width: 350px;
-    height: 170px;
+    transform: scale(0.15) translate(-285%,-298%);
+    width: 1573px;
+    height: 977px;
     text-indent: -9999px;
 }
 header ul{
     position: absolute;
     right:6vw;
     top: 0;
-    line-height: 150px;
+    line-height: 100px;
     font-size: larger;
 }
 header li{
