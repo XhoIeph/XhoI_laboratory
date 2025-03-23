@@ -92,4 +92,15 @@ footer a:hover{
         transform: translateX(-50%);
         transform: scale(0.15) translate(-330%,-298%);
     }
+        .menu{
+        display: block;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        border: none;
+        cursor: pointer;
+    }
 }
